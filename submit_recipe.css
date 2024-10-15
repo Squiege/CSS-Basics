@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: blanchedalmond;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover {
+    color: red;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#recipe_name {
+    background-color: blanchedalmond;
+}
+
+.recipe_instructions {
+    height: 150px;
+    width: 500px;
+    font-size: 16px;
+    background-color: blanchedalmond;
+}
+
+.recipe_ingredients {
+    height: 150px;
+    width: 500px;
+    font-size: 16px;
+    background-color: blanchedalmond;
+}
+
+.submit_recipe {
+    width: 100px;
+    margin-top: 50px;
+}
